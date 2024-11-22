@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #CEC09B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./imgs/pato.jpg);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.main-title {
+  border: none;
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white; 
+}
+
+.login-btn {
+  background-color: #908461;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
+.container {
+  background-color: #908461;
+  border-radius: 8px;
+  display:inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  background-color: #908461;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
+
