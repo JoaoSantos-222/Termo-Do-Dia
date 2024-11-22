@@ -6,7 +6,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(./imgs/pato.jpg);
+  background-image: url(./imgs/Group\ 24.svg);
+  background-position: center;
 }
 
 .header {
@@ -19,18 +20,6 @@ body {
   box-sizing: border-box;
 }
 
-.main-title {
-  border: none;
-  padding-top: 30px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-  margin-top: 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: bold;
-  color: white; 
-}
 
 .login-btn {
   background-color: #908461;
@@ -57,10 +46,13 @@ body {
 }
 
 .main-title {
-  font-size: 36px;
+  font-size: 75px;
   font-weight: bold;
   color: white;
   margin-bottom: 40px;
+  padding: 10px 20px;
+  margin-left: 80px;
+  margin-top: 55px;
 }
 
 .menu {
